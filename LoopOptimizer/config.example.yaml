@@ -1,0 +1,21 @@
+# LoopOptimizer Configuration
+
+processing:
+  default_quality: 0.8         # Default quality preference (0.0-1.0)
+  max_threads: 4               # Maximum processing threads
+  temp_directory: "/tmp/loop-optimizer"  # Directory for temporary files
+  
+storage:
+  local_output_dir: "./output"  # Directory for output files
+  use_cloud_storage: false      # Whether to use Google Cloud Storage
+  gcs_bucket: "my-loop-optimizer-bucket"  # GCS bucket name
+  
+api:
+  enable_api_server: false      # Whether to run the REST API server
+  port: 8080                    # API server port
+  allowed_origins: ["http://localhost:3000"]  # CORS settings
+  
+optimization:
+  default_level: "moderate"     # Default optimization level
+  enable_ml_optimization: false # Whether to use ML for optimization
+  ml_model_path: "./models/frame_analyzer.h5"  # ML model path
