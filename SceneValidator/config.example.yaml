@@ -1,0 +1,12 @@
+gemini_api:
+  api_key: "YOUR_GEMINI_API_KEY"
+  model_version: "gemini-pro-vision"
+
+storage:
+  bucket_name: "scene-validator-data"
+  temp_folder: "temp_processing"
+
+validation:
+  default_strictness: "medium"
+  timeout_seconds: 30
+  max_scene_size_mb: 100

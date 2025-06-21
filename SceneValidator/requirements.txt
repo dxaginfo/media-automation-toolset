@@ -1,0 +1,6 @@
+flask>=2.0.0
+protobuf>=3.19.0
+requests>=2.27.1
+google-cloud-storage>=2.1.0
+pyyaml>=6.0
+Google-GenerativeAI>=0.3.0
